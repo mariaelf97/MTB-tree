@@ -1,0 +1,33 @@
+{
+    "title": "MTB Genomic Surveillance",
+    "maintainers": [
+      {"name": "Andersen lab", "url": "https://andersen-lab.com"}
+    ],
+    "build_url": "https://nextstrain.org/community/mariaelf97/MTB-tree",
+    "colorings": [
+      {
+        "key": "lineage",
+        "title": "Lineage",
+        "type": "categorical"
+      },
+      {
+        "key": "coll2014",
+        "title": "coll2014_sublineage",
+        "type": "categorical"
+      },
+      {
+        "key": "freschi2020",
+        "title": "freschi2020_sublineage",
+        "type": "categorical"
+      }
+
+    ],
+    "display_defaults": {
+      "color_by": "lineage"
+    },
+    "filters": [
+      "lineage",
+      "coll2014",
+      "freschi2020"
+    ]
+  }
